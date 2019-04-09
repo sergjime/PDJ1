@@ -44,4 +44,4 @@ En el directorio principal del repositorio, el archivo principal debe tener el n
 3) Entregar en el classroom la url de tu repositorio
 
 ## Aquí podemos ver el ejercicio
-Este ejercicio lo podemos ver [aquí](https://sergjime.github.io/PDJ1-interfaces/).
+Este ejercicio lo podemos ver [aquí](https://rawcdn.githack.com/sergjime/PDJ1/1475cfeda941e124a46ba63bdcf3bf9ec3ed7c4d/home.html).
