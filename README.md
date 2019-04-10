@@ -2,9 +2,7 @@
 
 Reconstruir un sitio web responsive utilizando CSS Grid y Flexbox
 
-En esta práctica, usted tiene que reconstruir algunas partes de un sitio web utilizando
-
-estas tecnologías que hemos visto en el 1er trimestre del curso.
+En esta práctica, usted tiene que reconstruir algunas partes de un sitio web utilizando estas tecnologías que hemos visto en el 1er trimestre del curso.
 
 ## Qué hacer
 
