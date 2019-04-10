@@ -44,7 +44,7 @@
 .tituloHome_ancho{
     /* Grid */
     grid-row-start: 22;
-    grid-row-end: 25;
+    grid-row-end: 26;
 }
 .newProduct_ancho{
     /* Grid */
@@ -53,7 +53,7 @@
 }
 .pie_ancho{
     /* Grid */
-    grid-row-start: 25;
+    grid-row-start: 26;
     grid-row-end: 29;
 
     background-color: #c42c5c;
@@ -133,6 +133,25 @@
     background-image: url(../images/bg-home.jpg);
     background-size: cover;
     background-position: center; 
+}
+.contenidoHome > div a{
+    background: url(../images/icons.png) no-repeat 0 -128px;
+    color: #FFFFFF;
+    font-family: quicksand-bold-webfont;
+    font-size: 24px;
+    font-weight: normal;
+    height: 152px;
+    line-height: 24px;
+    margin: 0;
+    padding: 52px 0 0;
+    position: absolute;
+    right: 475px;
+    text-align: center;
+    text-transform: uppercase;
+    top: 437px;
+    width: 156px;
+    z-index: 90;
+    text-decoration: none;
 }
 .newProduct{
     /* Flexbox */
@@ -219,12 +238,41 @@
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 22;
-    grid-row-end: 25;
+    grid-row-end: 26;
 
     background-color: #c4bc2d;
     color: #fff;
 }
+.tituloHome-container {
+    /* Flexbox */
+    display: flex;
+    justify-content: space-between;
 
+    width: 100%;
+    height: 100%;
+}
+
+.tituloHome-container > div {
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+
+    width: 25%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.tituloHome-container > div a{
+    color: white;
+}
+.temporal{
+    font-family: lato-regular-webfont;
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
 /* -------------------------------------------------------------------- FOOTER -------------------------------------------------------------------- */
 
 .pie{
@@ -234,7 +282,7 @@
     /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
-    grid-row-start: 25;
+    grid-row-start: 26;
     grid-row-end: 29;
 
     background-color: #c42c5c;
