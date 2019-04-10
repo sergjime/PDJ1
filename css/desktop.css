@@ -1,9 +1,11 @@
 .wraper{
+    /* Grid */
     display: grid;
     grid-template-columns: repeat(47, 32px);
     grid-template-rows: repeat(28, 32px);
 }
 .contenedor{
+    /* Grid */
     display: grid;
     grid-column-start: 11;
     grid-column-end: 38;
@@ -13,50 +15,126 @@
     grid-template-rows: repeat(28, 32px);
 }
 .cabecera_ancho{
+    /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 1;
     grid-row-end: 4;
+    
     background-color: #ebebea;
 }
 .cabecera{
+    /* Flexbox */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 1;
     grid-row-end: 4;
+    
     background-color: #ebebea;
+}
+.menu nav{
+    width: 50%;
+    /* Flexbox */
+    display: flex;
+    align-items: center;
+}
+.menu nav a {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    /* Flexbox */
+    flex-grow: 1;
 }
 
 .titulo_ancho{
+    /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 4;
     grid-row-end: 7;
+    
     background-color: #c4bc2d;
     color: #fff;
 }
 .titulo{
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 4;
     grid-row-end: 7;
+
+    background-color: #c4bc2d;
+    color: #fff;
+}
+.tituloHome_ancho{
+    /* Grid */
+    grid-column-start: 1;
+    grid-column-end: 48;
+    grid-row-start: 22;
+    grid-row-end: 25;
+    
+    background-color: #c4bc2d;
+    color: #fff;
+}
+.tituloHome{
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Grid */
+    grid-column-start: 1;
+    grid-column-end: 48;
+    grid-row-start: 22;
+    grid-row-end: 25;
+    
     background-color: #c4bc2d;
     color: #fff;
 }
 
 .pie_ancho{
+    /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 25;
     grid-row-end: 29;
     background-color: #c42c5c;
+    
     color: #fff;
 }
 .pie{
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
     grid-row-start: 25;
     grid-row-end: 29;
+    
     background-color: #c42c5c;
     color: #fff;
+}
+.pie > div{
+    /* Flexbox */
+    display: inherit;
+    align-items: center;
+}
+.footer{
+    /* Flexbox */
+    flex-direction: column;
+    justify-content: center;
+}
+.iconos > i{
+    font-size: 30px;
+    margin: 5px;
 }
