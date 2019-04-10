@@ -6,8 +6,8 @@
 .wraper{
     /* Grid */
     display: grid;
-    grid-template-columns: repeat(47, 32px);
-    grid-template-rows: repeat(28, 32px);
+    grid-template-columns: repeat(47, 1fr);
+    grid-template-rows: repeat(28, 40px);
 }
 
 /* -------------------------------------------------------------------- WIDE LAYERS -------------------------------------------------------------------- */
@@ -113,8 +113,8 @@
     grid-column-end: 38;
     grid-row-start: 1;
     grid-row-end: 29;
-    grid-template-columns: repeat(27, 32px);
-    grid-template-rows: repeat(28, 32px);
+    grid-template-columns: repeat(27, 1fr);
+    grid-template-rows: repeat(28, 1fr);
 }
 .contenido{
     /* Grid */
@@ -150,7 +150,7 @@
     height: 100%;
 }
 .newProduct > div.new h1{
-    margin: 1% 0 1% 0;
+    margin: 2% 0 1% 0;
     color: #7A6666;
     font-family: lato-bold-webfont;
     font-size: 18px;
