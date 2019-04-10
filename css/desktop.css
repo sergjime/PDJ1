@@ -114,7 +114,7 @@
     grid-row-start: 1;
     grid-row-end: 29;
     grid-template-columns: repeat(27, 1fr);
-    grid-template-rows: repeat(28, 1fr);
+    grid-template-rows: repeat(28, 40px);
 }
 .contenido{
     /* Grid */
