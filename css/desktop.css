@@ -4,25 +4,48 @@
     grid-template-columns: repeat(47, 32px);
     grid-template-rows: repeat(28, 32px);
 }
-.contenedor{
-    /* Grid */
-    display: grid;
-    grid-column-start: 11;
-    grid-column-end: 38;
-    grid-row-start: 1;
-    grid-row-end: 29;
-    grid-template-columns: repeat(27, 32px);
-    grid-template-rows: repeat(28, 32px);
-}
-.cabecera_ancho{
+
+/* -------------------------------------------------------------------- WIDE LAYERS -------------------------------------------------------------------- */
+
+.cabecera_ancho, .titulo_ancho, .tituloHome_ancho, .pie_ancho{
     /* Grid */
     grid-column-start: 1;
     grid-column-end: 48;
+}
+.cabecera_ancho{
+    /* Grid */
     grid-row-start: 1;
     grid-row-end: 4;
-    
+
     background-color: #ebebea;
 }
+.titulo_ancho{
+    /* Grid */
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+    background-color: #c4bc2d;
+    color: #fff;
+}
+.tituloHome_ancho{
+    /* Grid */
+    grid-row-start: 22;
+    grid-row-end: 25;
+
+    background-color: #c4bc2d;
+    color: #fff;
+}
+.pie_ancho{
+    /* Grid */
+    grid-row-start: 25;
+    grid-row-end: 29;
+    background-color: #c42c5c;
+
+    color: #fff;
+}
+
+/* -------------------------------------------------------------------- HEADER -------------------------------------------------------------------- */
+
 .cabecera{
     /* Flexbox */
     display: flex;
@@ -34,9 +57,12 @@
     grid-column-end: 48;
     grid-row-start: 1;
     grid-row-end: 4;
-    
+
     background-color: #ebebea;
 }
+
+/* -------------- NAVBAR -------------- */
+
 .menu nav{
     width: 50%;
     /* Flexbox */
@@ -44,23 +70,34 @@
     align-items: center;
 }
 .menu nav a {
-    color: black;
+    color: #7a6666;
+    font-family: lato-regular-webfont;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+    margin: 0;
+    padding: 0;
     text-align: center;
     text-decoration: none;
     padding: 10px;
     /* Flexbox */
     flex-grow: 1;
 }
+.menu nav a:hover{
+    color: #c8c10d;
+}
 
-.titulo_ancho{
+/* -------------------------------------------------------------------- CONTENT -------------------------------------------------------------------- */
+
+.contenedor{
     /* Grid */
-    grid-column-start: 1;
-    grid-column-end: 48;
-    grid-row-start: 4;
-    grid-row-end: 7;
-    
-    background-color: #c4bc2d;
-    color: #fff;
+    display: grid;
+    grid-column-start: 11;
+    grid-column-end: 38;
+    grid-row-start: 1;
+    grid-row-end: 29;
+    grid-template-columns: repeat(27, 32px);
+    grid-template-rows: repeat(28, 32px);
 }
 .titulo{
     /* Flexbox */
@@ -76,15 +113,16 @@
     background-color: #c4bc2d;
     color: #fff;
 }
-.tituloHome_ancho{
-    /* Grid */
-    grid-column-start: 1;
-    grid-column-end: 48;
-    grid-row-start: 22;
-    grid-row-end: 25;
-    
-    background-color: #c4bc2d;
-    color: #fff;
+.titulo > div{
+    color: #FFFFFF;
+    font-family: lato-regular-webfont;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0;
+    padding: 28px 0 23px;
+    text-align: center;
+    text-transform: uppercase;
 }
 .tituloHome{
     /* Flexbox */
@@ -96,21 +134,13 @@
     grid-column-end: 48;
     grid-row-start: 22;
     grid-row-end: 25;
-    
+
     background-color: #c4bc2d;
     color: #fff;
 }
 
-.pie_ancho{
-    /* Grid */
-    grid-column-start: 1;
-    grid-column-end: 48;
-    grid-row-start: 25;
-    grid-row-end: 29;
-    background-color: #c42c5c;
-    
-    color: #fff;
-}
+/* -------------------------------------------------------------------- FOOTER -------------------------------------------------------------------- */
+
 .pie{
     /* Flexbox */
     display: flex;
@@ -120,7 +150,7 @@
     grid-column-end: 48;
     grid-row-start: 25;
     grid-row-end: 29;
-    
+
     background-color: #c42c5c;
     color: #fff;
 }
