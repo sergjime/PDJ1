@@ -1,7 +1,5 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
 .cabecera_ancho{display: none;}
@@ -28,16 +26,21 @@
     grid-row-start: 1;
     grid-row-end: 4;
 }
+.logo{
+    margin: auto;
+}
 
 /* -------------- NAVBAR -------------- */
-
-.menu nav{
+.menu{
+    display: none;
+}
+.menu_mobile nav{
     width: 50%;
     /* Flexbox */
     display: flex;
     align-items: center;
 }
-.menu nav a {
+.menu_mobile nav a {
     color: #7a6666;
     font-family: lato-regular-webfont;
     font-size: 15px;
@@ -51,7 +54,7 @@
     /* Flexbox */
     flex-grow: 1;
 }
-.menu nav a:hover{
+.menu_mobile nav a:hover{
     color: #c8c10d;
 }
 
@@ -118,8 +121,9 @@
     grid-row-end: 22;
 }
 .newProduct > div.new{
-    width: 50%;
+    width: 63%;
     height: 100%;
+    padding: 5px;
 }
 .newProduct > div.new h1{
     margin: 3% 0 1% 0;
