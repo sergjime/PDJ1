@@ -278,16 +278,13 @@
 
     width: 100%;
 }
-
 .boxes_products > div {
-    background-color: #f1f1f1;
     width: 22%;
     margin: 10px;
     text-align: center;
     line-height: 75px;
     font-size: 30px;
     height: 25%;
-    background-color: #F4DBDB;
 }
 .boxes_products > div h1{
     color: #E32A62;
@@ -297,7 +294,15 @@
     text-align: left;
     text-transform: capitalize;
 }
-.boxes_products > div p{
+.titProduct{
+    color: #E32A62;
+    font-family: lato-regular-webfont;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90%;
+}
+.prod{
     color: #7A6666;
     font-family: roboto-regular-webfont;
     font-size: 14px;
@@ -306,19 +311,15 @@
     margin-top: 20px;
 }
 
-.boxes_products div:nth-child(1), .boxes_products div:nth-child(5), .boxes_products div:nth-child(9){
-    
-}
-
-.boxes_products div:nth-child(2){background-image: url(../images/kiwi.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(3){background-image: url(../images/mango.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(4){background-image: url(../images/cantaloupe.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(6){background-image: url(../images/blackberry.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(7){background-image: url(../images/strawberry.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(8){background-image: url(../images/blueberry.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(10){background-image: url(../images/grapes.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(11){background-image: url(../images/green-apple.jpg); background-size: cover; background-position: center;}
-.boxes_products div:nth-child(12){background-image: url(../images/pineapple.jpg); background-size: cover; background-position: center;}
+.boxes_products div:nth-child(2){background-image: url(../images/kiwi.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(3){background-image: url(../images/mango.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(4){background-image: url(../images/cantaloupe.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(6){background-image: url(../images/blackberry.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(7){background-image: url(../images/strawberry.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(8){background-image: url(../images/blueberry.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(10){background-image: url(../images/grapes.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(11){background-image: url(../images/green-apple.jpg); background-size: cover; background-position: bottom;}
+.boxes_products div:nth-child(12){background-image: url(../images/pineapple.jpg); background-size: cover; background-position: bottom;}
 
 .temporal{
     font-family: lato-regular-webfont;
